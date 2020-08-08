@@ -3,7 +3,7 @@ layout: post
 title:  "Microsoft Teams vs Slack:The Battle of collaborative work"
 author: nikhil
 categories: [ microsoft, teams, slack]
-image: assets/images/internet/slack-vs-teams.jpg
+image: assets/images/3.jpg
 tags: [microsoft teams, communication, trends, comparsion]
 featured: true
 ---
