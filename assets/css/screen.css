@@ -305,9 +305,25 @@ span.post-read-more a:hover {
     margin-right: 5px;
 }
 
-.mainheading h1.sitetitle {
-    font-family: Righteous;
+.navbar-light .navbar-toggler-icon{
+    font-size: 15px;
 }
+
+.navbar h2.sitetitle {
+    font-family: Righteous;
+    display: inline;
+    font-size: 20px;
+    
+}
+
+@media (min-width:786px){
+
+    .navbar h2.sitetitle{
+        font-size: 27px;
+    }
+}
+
+
 
 .mainheading h1.posttitle {
     font-weight: 700;
@@ -358,14 +374,20 @@ blockquote {
     text-align: center;
 }
 
+.share .fab:hover{
+    transform : scale(1.05);
+  }
+
 .share p {
-    margin-bottom: 10px;
-    font-size: 0.95rem;
+    margin-bottom: 12px;
+    font-size: 20px;
+
 }
 
 .share ul li {
     display: inline-block;
     margin-bottom: 9px;
+    font-size: 25px;
 }
 
 .share ul {
@@ -498,18 +520,27 @@ ul.tags {
 
 ul.tags li {
     display: inline-block;
-    font-size: 0.9rem;
+    font-size: 15px;
+    font-family: Merriweather;
+}
+
+@media (max-width:778px){
+
+    ul.tags li {
+        margin-bottom: 25px;
+    }
 }
 
 ul.tags li a {
     background: rgba(0, 0, 0, .05);
-    color: rgba(0, 0, 0, .6);
-    border-radius: 3px;
-    padding: 5px 10px;
+    color: black;
+    margin-right: 5px;
+    border-radius: 8px;
+    padding: 10px;
 }
 
 ul.tags li a:hover {
-    background: rgba(0, 0, 0, .07);
+    background: rgba(0, 0, 0, .2);
     text-decoration: none;
 }
 
